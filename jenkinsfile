@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Version') {
             steps {
-                sh 'pwd'
+                sh 'python3 --version'
             }
         }
     }
