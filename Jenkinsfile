@@ -2,9 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Running Tests') {
             steps {
-               echo "Hello My Friend"
+                echo "======================================"
+               echo "Test run is in progress"
+                echo "====================================="
+                echo "Run Completeed"
             }
         }
     }
