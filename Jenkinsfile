@@ -2,12 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Running Tests') {
+        stage('Running shell scripts') {
             steps {
-                echo "======================================"
-               echo "Test run is in progress"
-                echo "====================================="
-                echo "Run Completeed"
+                sh 'pwd'
             }
         }
     }
