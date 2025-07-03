@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Running shell scripts') {
+        stage('Hello') {
             steps {
-                sh 'python --version'
+                echo "Hello My Friend"
             }
         }
     }
