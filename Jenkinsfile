@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Running shell scripts') {
             steps {
-                sh 'pwd'
+                python --version
             }
         }
     }
