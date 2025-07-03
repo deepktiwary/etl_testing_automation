@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Running shell scripts') {
             steps {
-                python --version
+                sh 'python --version'
             }
         }
     }
