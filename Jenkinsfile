@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat "python --version"
+                bat "pytest --version"
             }
         }
     }
